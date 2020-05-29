@@ -1,0 +1,11 @@
+
+    body {
+        background-image: url('../../img/sua-seguranca-de-dados.jpg');
+        background-size: 100%;
+    }
+
+
+    body {
+        background-image: url('../../img/escola.png');
+        background-size: 100%;
+    }

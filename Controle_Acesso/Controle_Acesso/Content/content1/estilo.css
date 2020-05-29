@@ -1,0 +1,16 @@
+﻿
+.rodape-prin {
+    background-color: rgb(0, 0, 0);
+    clear: both;
+    padding: 28px;
+    color: rgb(250,255,250);
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+}
+
+.icones-sociais li {
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+}

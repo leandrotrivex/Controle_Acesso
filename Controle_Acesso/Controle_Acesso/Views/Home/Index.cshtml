@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+@Html.ActionLink("Cadastros", "Index", "Acesso")
+@Html.ActionLink("Autorização De Aluno", "Index", "TB_AUTORIZACAO")
+@Html.ActionLink("Acesso De Aluno", "Index", "TB_ACESSO")
+@Html.ActionLink("Aluno", "Index", "TB_ALUNO")
+@Html.ActionLink("Aluno Turma", "Index", "TB_ALUNO_TURMA")
+@Html.ActionLink("cargo", "Index", "TB_CARGO")
+@Html.ActionLink("curso", "Index", "TB_CURSO")
+@Html.ActionLink("turma", "Index", "TB_TURMA")
+
+
+<div class="container" style="text-align:center">
+    <div class="row" style="margin-top:10px">
+
+        @if (Session["Nome"] != null)
+        {
+
+
+
+
+            <p>
+                <h3>Bem vindo ao sistema</h3> <h1>
+                    @Session["Nome"].ToString()  @Session["Sobrenome"].ToString()
+                </h1>
+            </p>
+
+        }
+    </div>
+</div>
